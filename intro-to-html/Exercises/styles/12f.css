@@ -1,0 +1,44 @@
+div{
+  font-family: Arial;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(120,82,178);
+  color: white;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-link{
+  font-weight: bold;
+}
+
+.text-box{
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 500px;
+  height: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+button{
+  background-color: rgb(120,82,178);
+  font-size: 16px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}

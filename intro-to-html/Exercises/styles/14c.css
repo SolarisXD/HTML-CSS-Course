@@ -1,0 +1,12 @@
+body{
+  height: 3000px;
+}
+
+.background{
+  background-color: black;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}

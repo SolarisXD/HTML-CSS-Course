@@ -1,0 +1,108 @@
+p{
+  font-family: Arial;
+}
+
+.service{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200,200,200);
+}
+
+.para{
+  margin-left: 10px;
+}
+
+.Yes{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.No{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.yt-music{
+  margin-top: 10px;
+  background-color: rgb(33,33,33);
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.yt-title{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.yt-description{
+  margin-top: 0;
+  color: rgb(160,160,160);
+}
+
+.tweet-box{
+  border: solid;
+  width: max-content;
+  margin-top: 50px;
+  border-width: 0px;
+  border-color:  rgb(160,160,160);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgb(100,100,100);
+
+}
+.profile-pic{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  object-position: left;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tweet{
+  border:none;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  vertical-align: middle;
+  border-radius: 30px;
+  width: 300px;
+}
+
+
+.tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition:  box-shadow 0.15s;
+  vertical-align: middle;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.tweet-button:active{
+  opacity: 0.6;
+}

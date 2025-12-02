@@ -1,0 +1,141 @@
+.uber-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover{
+  opacity: 0.8;
+}
+
+.amazon-button{
+  background-color: rgb(255,216,20);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 18px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.amazon-button:hover{
+  background-color:rgb(221, 184, 0) ;
+}
+
+.github-button{
+  background-color: rgb(46,164,79);
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.github-button:hover{
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.15);
+}
+
+.bootstrap1-button{
+  background-color: rgb(121,82,179);
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.bootstrap1-button:hover{
+  background-color:rgb(89, 59, 134) ;
+}
+
+.bootstrap2-button{
+  background-color: rgb(255,255,255);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(108,117,125) ;
+  color: rgb(108,117,125);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  transition: background-color 0.15s,color 0.15s;
+}
+
+.bootstrap2-button:hover{
+  background-color:rgb(108,117,125) ;
+  color:white;
+}
+
+.linkedin1-button{
+  background-color: rgb(10, 102,194);
+  color:white;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.linkedin1-button:hover{
+  background-color:rgb(0, 75, 150) ;
+}
+
+.linkedin2-button{
+  background-color: white;
+  color:rgb(10, 102,194);
+  border: solid;
+  border-width: 1px;
+  padding-top:9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-weight: bold;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: border-width 0.15s,background-color 0.15s;
+}
+
+.linkedin2-button:hover{
+  border-width: 2px;
+    background-color:rgb(218, 232, 246) ;
+  }

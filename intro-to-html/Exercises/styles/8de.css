@@ -1,0 +1,94 @@
+.title{
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input{
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(200,200,200);
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  font-size: 16px;
+}
+
+.first-name,
+.last-name{
+  width: 148px;
+}
+
+.email{
+  display: block;
+  width: 335px;
+}
+
+.sign-up-button{
+  background-color: rgb(47, 127, 231);
+  border: none;
+  width: 370px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.uber-title{
+  font-size: 35px;
+  font-family: Arial;
+  margin-bottom: 30px;
+}
+.location{
+  background-color: rgb(240,240,240);
+  margin-top: 0;
+  border: none;
+  font-size: 16px;
+  display: block;
+  width: 300px;
+}
+
+.uber-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover{
+  opacity: 0.8;
+}
+
+.uber-button2{
+  background-color: rgb(240,240,240);
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  font-size: 16px;
+}
+
+.uber-button2:hover{
+  opacity: 0.5;
+}
